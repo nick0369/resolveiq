@@ -1,0 +1,10 @@
+{
+  "source_url": "https://files.consumerfinance.gov/f/documents/CCDB_Export_1_December_2011_through_April_2018.zip",
+  "sha256": "9d4fabeb5db925ce4303e81ab448f44531303a995aec1a935abc09156f2fc533",
+  "archive_rows": 1031863,
+  "sample_rows": 33022,
+  "sample_rule": "SHA256(complaint ID) first 8 hex digits mod 8 equals zero; six mapped routes; >=40 text chars; >=2015; earliest exact-text duplicate retained",
+  "duplicate_control": "Normalized exact hash; near-duplicate template overlap remains possible",
+  "availability": "Live narratives removed September 2026; use official historical archive.",
+  "selection_bias": "Public consented narratives and selected six product routes; not all complaints."
+}

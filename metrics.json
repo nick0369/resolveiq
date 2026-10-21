@@ -1,0 +1,133 @@
+{
+  "macro_f1": 0.812667805418077,
+  "coverage": 0.6765152794192132,
+  "accepted_cases": 8014,
+  "accepted_precision": 0.9109059146493637,
+  "accepted_precision_wilson_lower": 0.9044703037800118,
+  "unknown_label_rate": 0.0,
+  "per_class": {
+    "Bank accounts": {
+      "precision": 0.7942238267148014,
+      "recall": 0.8823529411764706,
+      "f1-score": 0.8359721342621913,
+      "support": 748.0
+    },
+    "Credit card": {
+      "precision": 0.6903765690376569,
+      "recall": 0.8048780487804879,
+      "f1-score": 0.7432432432432432,
+      "support": 1230.0
+    },
+    "Credit reporting": {
+      "precision": 0.9310267857142858,
+      "recall": 0.7699833856378069,
+      "f1-score": 0.842881681317571,
+      "support": 5417.0
+    },
+    "Debt collection": {
+      "precision": 0.7330423102753526,
+      "recall": 0.8396153846153847,
+      "f1-score": 0.782717820007171,
+      "support": 2600.0
+    },
+    "Mortgage": {
+      "precision": 0.7791327913279132,
+      "recall": 0.9551495016611296,
+      "f1-score": 0.8582089552238806,
+      "support": 1204.0
+    },
+    "Student loan": {
+      "precision": 0.8129829984544049,
+      "recall": 0.8129829984544049,
+      "f1-score": 0.8129829984544049,
+      "support": 647.0
+    },
+    "accuracy": 0.8171534695255782,
+    "macro avg": {
+      "precision": 0.7901308802540692,
+      "recall": 0.8441603767209475,
+      "f1-score": 0.812667805418077,
+      "support": 11846.0
+    },
+    "weighted avg": {
+      "precision": 0.8320615049795711,
+      "recall": 0.8171534695255782,
+      "f1-score": 0.8188195447765312,
+      "support": 11846.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      660,
+      31,
+      20,
+      25,
+      12,
+      0
+    ],
+    [
+      84,
+      990,
+      53,
+      79,
+      24,
+      0
+    ],
+    [
+      39,
+      307,
+      4171,
+      620,
+      188,
+      92
+    ],
+    [
+      30,
+      85,
+      205,
+      2183,
+      70,
+      27
+    ],
+    [
+      11,
+      8,
+      14,
+      19,
+      1150,
+      2
+    ],
+    [
+      7,
+      13,
+      17,
+      52,
+      32,
+      526
+    ]
+  ],
+  "n_train": 14930,
+  "n_selection": 3013,
+  "n_policy": 3233,
+  "n_test": 11846,
+  "train_end": "2016-12-31",
+  "selection_end": "2017-03-31",
+  "policy_end": "2017-06-30",
+  "test_start": "2017-07-01",
+  "test_end": "2018-04-30",
+  "selected_C": 4.0,
+  "selection_macro_f1": 0.8586739940879567,
+  "threshold": 0.7249494949494949,
+  "classes": [
+    "Bank accounts",
+    "Credit card",
+    "Credit reporting",
+    "Debt collection",
+    "Mortgage",
+    "Student loan"
+  ],
+  "majority_macro_f1": 0.05999353915732152,
+  "vocabulary_size": 18000,
+  "train_seconds": 43.48577759996988,
+  "python": "3.14.7"
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "input": {
+      "text": "My credit card statement includes a purchase I never made and the bank will not correct it."
+    },
+    "expected_confidence": 0.8269241525270375
+  },
+  {
+    "input": {
+      "text": "My mortgage servicer has not applied the payment to my home loan and is threatening foreclosure."
+    },
+    "expected_confidence": 0.9995804838411321
+  },
+  {
+    "input": {
+      "text": "A debt collector keeps calling me about money I do not owe and refuses to validate the debt."
+    },
+    "expected_confidence": 0.9988223319278631
+  },
+  {
+    "input": {
+      "text": "There is an incorrect account on my credit report and the bureau has not investigated my dispute."
+    },
+    "expected_confidence": 0.9717673169023551
+  },
+  {
+    "input": {
+      "text": "My student loan payments increased and I cannot get help with repayment from the servicer."
+    },
+    "expected_confidence": 0.9773143566194984
+  },
+  {
+    "input": {
+      "text": "The bank has frozen my checking account and will not return the deposit I made last week."
+    },
+    "expected_confidence": 0.9873375369445065
+  }
+]
