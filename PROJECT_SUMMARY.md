@@ -1,8 +1,8 @@
-# ResolveIQ � project summary
+# ResolveIQ — project summary
 
 Unstructured complaints require product-team routing. The model suggests a route from narrative text, while a validation-selected threshold sends uncertain cases to humans. Routes proxy CFPB product categories, not independent operational adjudications.
 
-14,930 training narratives (2015–2016); 3,013 for regularization selection (Q1 2017); 3,233 for review policy (Q2 2017); 11,846 test narratives (July 2017–April 2018). Exact normalized duplicates are removed before splitting. Only text is used as input.
+14,930 training narratives (2015â€“2016); 3,013 for regularization selection (Q1 2017); 3,233 for review policy (Q2 2017); 11,846 test narratives (July 2017â€“April 2018). Exact normalized duplicates are removed before splitting. Only text is used as input.
 
 ## Measured results
 
